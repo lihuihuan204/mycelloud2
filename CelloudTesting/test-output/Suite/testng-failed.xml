@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="driverType" value="3"/>
+    <classes>
+      <class name="cn.celloud.Case.Celloud_case">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="login_case" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- cn.celloud.Case.Celloud_case -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
